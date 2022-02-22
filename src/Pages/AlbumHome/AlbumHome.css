@@ -1,0 +1,44 @@
+
+.filterSource{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:white
+}
+.filterSource label{
+    margin: 5px;
+}
+.albumContainer {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ place-items: center;
+ justify-content: center;
+  }
+
+.getAlbumBtn{
+      margin: 10px;
+      text-align: center;
+      border: 2px solid rgb(207, 188, 14);
+      border-radius: 5px;
+      font-size:20px;
+      color:white;
+      background-color: rgb(56, 55, 55);
+      cursor: pointer;
+  }
+
+
+@media only screen and (max-width: 1024px) {
+    .albumContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .albumContainer{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width:460px) {
+    .albumContainer{
+        grid-template-columns: 1fr;
+    }
+}

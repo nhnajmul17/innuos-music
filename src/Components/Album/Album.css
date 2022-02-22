@@ -1,0 +1,24 @@
+.album{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 5px;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    align-self: self-end;
+  }
+
+  .album-name{
+      color:white;
+      text-align: start;
+  }
+  .artist{
+      color:grey;
+      text-align: start;
+  }
